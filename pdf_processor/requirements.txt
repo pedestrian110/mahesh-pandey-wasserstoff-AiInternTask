@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pymongo
+spacy
+transformers
+watchdog
+PyPDF2
+python-dotenv
