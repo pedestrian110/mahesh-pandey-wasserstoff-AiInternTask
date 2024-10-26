@@ -145,7 +145,7 @@ class Watcher:
 
 # Main block to start watching the folder
 if __name__ == "__main__":
-    folder_to_watch = os.getenv("PDF_FOLDER_PATH", "../pdf_file")
+    folder_to_watch = os.getenv("PDF_FOLDER_PATH", "./pdf_file")
     ingest_pdfs_in_folder(folder_to_watch)
     watcher = Watcher(folder_to_watch)
     watcher.run()
